@@ -18,7 +18,7 @@ function og_scraper( $args ) {
         $url =  $args[0];
         $parsed_url = parse_url($url);
         
-        require './vendor/autoload.php';
+        require '/opt/yourls/user/plugins/og-scraper/vendor/autoload.php';
 
         
             
